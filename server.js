@@ -23,7 +23,7 @@ const app = express();
 app.use(express.json());
 
 // ✅ CORS FIX (THIS IS THE KEY)
-app.use(
+/*app.use(
   cors({
     origin: [
       "https://ecomstore-frontend-five.vercel.app/",
