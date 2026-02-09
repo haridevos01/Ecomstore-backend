@@ -25,7 +25,10 @@ app.use(express.json());
 // ✅ CORS FIX (THIS IS THE KEY)
 app.use(
   cors({
-    origin: "https://ecomstore-frontend-five.vercel.app/", // frontend
+    origin: [
+      "https://ecomstore-frontend-five.vercel.app/",
+      "http://localhost:3000", // frontend
+    ],
     credentials: true,
   })
 );
