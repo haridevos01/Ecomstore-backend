@@ -32,7 +32,7 @@ app.use(cors({
 }));
 
 // 👇 this is VERY important for preflight
-app.options("*", cors());
+
 
 
 
