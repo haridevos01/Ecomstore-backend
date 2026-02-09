@@ -6,7 +6,7 @@ import {
     deleteCategory
 } from '../../controllers/admin/admincategoryControllers.js';
 import { protect } from '../../middleware/authMiddleware.js';   
-import {adminOnly} from '../../middleware/adminMiddleware.js';
+import {adminOnly} from '../../middleware/adminmiddleware.js';
 
 const router = express.Router();
 
