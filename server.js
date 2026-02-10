@@ -25,7 +25,7 @@ app.use(express.json());
 app.use(cors({
   origin: [
     "http://localhost:3000",
-    "https://ecomstore-frontend-five.vercel.app/"
+    "https://ecomstore-frontend-five.vercel.app"
   ],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
